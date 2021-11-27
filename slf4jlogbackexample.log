@@ -1,0 +1,829 @@
+05.11.2021 19:46:02.815 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@352ff4da
+05.11.2021 19:46:02.838 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:02.917 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:02.923 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:02.924 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:02.925 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:02.931 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:02.938 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:03.039 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:03.041 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:03.043 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:03.045 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:03.054 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:03.066 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:03.080 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.082 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.083 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.083 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.089 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.090 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.090 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.103 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:03.107 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:03.113 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:03.115 [main] DEBUG  c.z.h.HikariConfig - HikariPool-1 - configuration:
+05.11.2021 19:46:03.118 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:03.118 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:03.118 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:03.119 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:03.120 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-1"
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:03.121 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:03.122 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:03.122 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:03.122 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:03.122 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:03.122 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:03.124 [main] INFO   c.z.h.HikariDataSource - HikariPool-1 - Starting...
+05.11.2021 19:46:03.159 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.358 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6b85300e
+05.11.2021 19:46:03.359 [main] INFO   c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+05.11.2021 19:46:03.361 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.363 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:03.364 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:03.366 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:03.368 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:03.384 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:03.386 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:03.386 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:03.387 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:03.389 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.390 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:03.392 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.392 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.393 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:03.396 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:03.429 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05.11.2021 19:46:03.429 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [SELECT MUSCLE_ID,MUSCLE_NAME FROM MUSCLES LIMIT ? OFFSET ?]
+05.11.2021 19:46:03.432 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.468 [HikariPool-1 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:03.479 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@17391647
+05.11.2021 19:46:03.492 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7716e908
+05.11.2021 19:46:03.504 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@735872bf
+05.11.2021 19:46:03.514 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1c744ed5
+05.11.2021 19:46:03.523 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1144f0b6
+05.11.2021 19:46:03.531 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5ca5e86e
+05.11.2021 19:46:03.541 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5dbae0ae
+05.11.2021 19:46:03.546 [main] DEBUG  o.s.b.f.x.XmlBeanDefinitionReader - Loaded 11 bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+05.11.2021 19:46:03.547 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'DB2'
+05.11.2021 19:46:03.550 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@673f23f0
+05.11.2021 19:46:03.561 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@64325c1f
+05.11.2021 19:46:03.571 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@cfd24f
+05.11.2021 19:46:03.575 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'Derby'
+05.11.2021 19:46:03.577 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'H2'
+05.11.2021 19:46:03.579 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'HDB'
+05.11.2021 19:46:03.580 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'HSQL'
+05.11.2021 19:46:03.581 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'Informix'
+05.11.2021 19:46:03.582 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3c34090e
+05.11.2021 19:46:03.582 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'MS-SQL'
+05.11.2021 19:46:03.583 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'MySQL'
+05.11.2021 19:46:03.583 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'Oracle'
+05.11.2021 19:46:03.585 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'PostgreSQL'
+05.11.2021 19:46:03.586 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'Sybase'
+05.11.2021 19:46:03.586 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@4d8539de]
+05.11.2021 19:46:03.587 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.591 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:03.591 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@4d8539de]: database product name is 'MySQL'
+05.11.2021 19:46:03.592 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@54781aa4
+05.11.2021 19:46:03.592 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [SELECT MUSCLE_ID,MUSCLE_NAME FROM MUSCLES LIMIT ? OFFSET ?] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.603 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@528221ce
+05.11.2021 19:46:03.613 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38499e48
+05.11.2021 19:46:03.614 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:03.614 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@d31b60d
+05.11.2021 19:46:03.626 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:03.627 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:03.629 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5f727c37
+05.11.2021 19:46:03.630 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:03.631 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:03.633 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:03.633 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:03.640 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6e7f6cea
+05.11.2021 19:46:03.649 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:03.650 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:03.650 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@60386e59
+05.11.2021 19:46:03.650 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:03.651 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:03.652 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:03.652 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:03.654 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.655 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.656 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.657 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.657 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.658 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.658 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.659 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:03.659 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:03.660 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3dd270ad
+05.11.2021 19:46:03.661 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:03.661 [main] DEBUG  c.z.h.HikariConfig - HikariPool-2 - configuration:
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:03.663 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:03.664 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:03.664 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:03.664 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:03.664 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.665 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-2"
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:03.666 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:03.667 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:03.667 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:03.667 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:03.667 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:03.667 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:03.667 [main] INFO   c.z.h.HikariDataSource - HikariPool-2 - Starting...
+05.11.2021 19:46:03.668 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.672 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5fb1c9dd
+05.11.2021 19:46:03.673 [HikariPool-1 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+05.11.2021 19:46:03.678 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@7c28c1
+05.11.2021 19:46:03.679 [main] INFO   c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+05.11.2021 19:46:03.679 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.679 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:03.680 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:03.681 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:03.681 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:03.682 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:03.682 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:03.682 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:03.683 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:03.683 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.684 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:03.685 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.685 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.685 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:03.686 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:03.710 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05.11.2021 19:46:03.710 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?]
+05.11.2021 19:46:03.710 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.712 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@6b3871d6]
+05.11.2021 19:46:03.712 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.712 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:03.712 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@6b3871d6]: database product name is 'MySQL'
+05.11.2021 19:46:03.712 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.715 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05.11.2021 19:46:03.716 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)]
+05.11.2021 19:46:03.716 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.718 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.728 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@31fc71ab
+05.11.2021 19:46:03.729 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:03.737 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:03.738 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:03.739 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:03.739 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:03.739 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:03.740 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:03.755 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:03.755 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:03.756 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:03.756 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:03.756 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:03.757 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:03.758 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.759 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.759 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.760 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.762 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.763 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.763 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.764 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:03.764 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:03.765 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:03.766 [main] DEBUG  c.z.h.HikariConfig - HikariPool-3 - configuration:
+05.11.2021 19:46:03.766 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:03.766 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:03.766 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:03.766 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:03.766 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:03.767 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.768 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:03.768 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:03.768 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:03.768 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:03.768 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:03.768 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-3"
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:03.769 [main] INFO   c.z.h.HikariDataSource - HikariPool-3 - Starting...
+05.11.2021 19:46:03.769 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.780 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@6f8e0cee
+05.11.2021 19:46:03.780 [main] INFO   c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+05.11.2021 19:46:03.781 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.781 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:03.782 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:03.783 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:03.783 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:03.784 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:03.784 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:03.785 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:03.785 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:03.785 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.786 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:03.787 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.787 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.787 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:03.787 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:03.789 [HikariPool-2 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:03.791 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05.11.2021 19:46:03.791 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?]
+05.11.2021 19:46:03.791 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@d176a31]
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@d176a31]: database product name is 'MySQL'
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)]
+05.11.2021 19:46:03.793 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.794 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.803 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5965844d
+05.11.2021 19:46:03.803 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:03.804 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@7648fc1b
+05.11.2021 19:46:03.814 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:03.814 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:03.815 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:03.816 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:03.816 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:03.817 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:03.832 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@16670354
+05.11.2021 19:46:03.839 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:03.839 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:03.840 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:03.841 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:03.841 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:03.843 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:03.844 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.845 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.845 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.845 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@1229f982
+05.11.2021 19:46:03.845 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.846 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.847 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.847 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.847 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:03.848 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:03.850 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:03.851 [main] DEBUG  c.z.h.HikariConfig - HikariPool-4 - configuration:
+05.11.2021 19:46:03.852 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:03.852 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:03.853 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-4"
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:03.854 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:03.854 [main] INFO   c.z.h.HikariDataSource - HikariPool-4 - Starting...
+05.11.2021 19:46:03.855 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.864 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@1f688d69
+05.11.2021 19:46:03.872 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@383f1975
+05.11.2021 19:46:03.872 [main] INFO   c.z.h.HikariDataSource - HikariPool-4 - Start completed.
+05.11.2021 19:46:03.873 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.873 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:03.874 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:03.875 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:03.876 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:03.877 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@71cfaafd
+05.11.2021 19:46:03.877 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:03.877 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:03.877 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:03.877 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:03.878 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.879 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:03.881 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.882 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.882 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:03.883 [HikariPool-3 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:03.883 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:03.888 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05.11.2021 19:46:03.888 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?]
+05.11.2021 19:46:03.888 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.891 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@3b569985]
+05.11.2021 19:46:03.891 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.891 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:03.891 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@3b569985]: database product name is 'MySQL'
+05.11.2021 19:46:03.891 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.899 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@31ddd4a4
+05.11.2021 19:46:03.899 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:03.900 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@53c8dfb4
+05.11.2021 19:46:03.913 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@209cb20
+05.11.2021 19:46:03.914 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:03.915 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:03.918 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:03.918 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:03.919 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:03.920 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:03.922 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@58a73541
+05.11.2021 19:46:03.927 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@6226346f
+05.11.2021 19:46:03.935 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@bceb790
+05.11.2021 19:46:03.936 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:03.936 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:03.937 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:03.938 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:03.939 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:03.939 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:03.940 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@66682ae8
+05.11.2021 19:46:03.941 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.941 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.941 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.942 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.942 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.942 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.943 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:03.945 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:03.947 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:03.950 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:03.950 [main] DEBUG  c.z.h.HikariConfig - HikariPool-5 - configuration:
+05.11.2021 19:46:03.951 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:03.952 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-5"
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:03.953 [main] INFO   c.z.h.HikariDataSource - HikariPool-5 - Starting...
+05.11.2021 19:46:03.953 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:03.955 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@7fcf8bd1
+05.11.2021 19:46:03.957 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@1b8747bc
+05.11.2021 19:46:03.965 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@5003c978
+05.11.2021 19:46:03.966 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@1a866846
+05.11.2021 19:46:03.966 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@37fdfb05
+05.11.2021 19:46:03.968 [main] INFO   c.z.h.HikariDataSource - HikariPool-5 - Start completed.
+05.11.2021 19:46:03.969 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.969 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:03.970 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:03.971 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:03.972 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:03.973 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:03.973 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:03.973 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:03.973 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:03.974 [HikariPool-4 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:03.975 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.976 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:03.977 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@48ecee09
+05.11.2021 19:46:03.978 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:03.978 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:03.978 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:03.979 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:03.981 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@6e0a0787
+05.11.2021 19:46:03.984 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05.11.2021 19:46:03.984 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?]
+05.11.2021 19:46:03.984 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.986 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@476ec9d0]
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@476ec9d0]: database product name is 'MySQL'
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)]
+05.11.2021 19:46:03.987 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:03.989 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)] for task [PreparedStatementCallback]
+05.11.2021 19:46:03.993 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@336a5115
+05.11.2021 19:46:03.997 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@799564f
+05.11.2021 19:46:03.999 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@6708ec0f
+05.11.2021 19:46:03.999 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@43effd89
+05.11.2021 19:46:04.000 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:04.010 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:04.011 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:04.012 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@5345ae5a
+05.11.2021 19:46:04.012 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@1b1fda80
+05.11.2021 19:46:04.013 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:04.013 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:04.013 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:04.015 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:04.016 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@1b66046f
+05.11.2021 19:46:04.026 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@71708a70
+05.11.2021 19:46:04.026 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@570b91ae
+05.11.2021 19:46:04.029 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@477442bb
+05.11.2021 19:46:04.032 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:04.034 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:04.034 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:04.035 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:04.035 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:04.036 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:04.038 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.039 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.039 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.039 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.039 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.039 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.040 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.041 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:04.043 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:04.046 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:04.047 [main] DEBUG  c.z.h.HikariConfig - HikariPool-6 - configuration:
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:04.048 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:04.049 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-6"
+05.11.2021 19:46:04.050 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:04.050 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:04.050 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:04.050 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:04.050 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:04.050 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@523eb0ea
+05.11.2021 19:46:04.050 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@401b2bb5
+05.11.2021 19:46:04.050 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@38bf474f
+05.11.2021 19:46:04.050 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:04.051 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:04.051 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:04.051 [main] INFO   c.z.h.HikariDataSource - HikariPool-6 - Starting...
+05.11.2021 19:46:04.052 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:04.061 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@3c6cd6ce
+05.11.2021 19:46:04.061 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@ff59276
+05.11.2021 19:46:04.082 [HikariPool-5 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:04.100 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@2f655c3e
+05.11.2021 19:46:04.100 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@598968bf
+05.11.2021 19:46:04.100 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@7d63ebc2
+05.11.2021 19:46:04.100 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@2f6cfad4
+05.11.2021 19:46:04.104 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@985696
+05.11.2021 19:46:04.104 [main] INFO   c.z.h.HikariDataSource - HikariPool-6 - Start completed.
+05.11.2021 19:46:04.104 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:04.105 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:04.106 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:04.107 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:04.108 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:04.109 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:04.110 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:04.110 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:04.111 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:04.113 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@3d8214b7
+05.11.2021 19:46:04.113 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:04.113 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@3bf9c2ee
+05.11.2021 19:46:04.113 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@4f4aa371
+05.11.2021 19:46:04.113 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:04.114 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@8e2c74a
+05.11.2021 19:46:04.114 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:04.114 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:04.115 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:04.117 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:04.120 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05.11.2021 19:46:04.121 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)]
+05.11.2021 19:46:04.121 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.122 [main] DEBUG  o.s.j.c.StatementCreatorUtils - JDBC getParameterType call failed - using fallback method instead: java.sql.SQLException: Parameter metadata not available for the given statement
+05.11.2021 19:46:04.124 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@675ffd1d]
+05.11.2021 19:46:04.124 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.124 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:04.124 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@675ffd1d]: database product name is 'MySQL'
+05.11.2021 19:46:04.124 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)] for task [PreparedStatementCallback]
+05.11.2021 19:46:04.125 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - Added connection com.mysql.jdbc.JDBC4Connection@2d9eec3b
+05.11.2021 19:46:04.126 [HikariPool-2 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-2 - After adding stats (total=20, active=0, idle=20, waiting=0)
+05.11.2021 19:46:04.126 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@4b04189a
+05.11.2021 19:46:04.126 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@427f334
+05.11.2021 19:46:04.127 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56303475
+05.11.2021 19:46:04.128 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:04.128 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@317a6403
+05.11.2021 19:46:04.135 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@38fbca9a
+05.11.2021 19:46:04.136 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@7d0cd689
+05.11.2021 19:46:04.138 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@6eee41d
+05.11.2021 19:46:04.139 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:04.140 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:04.141 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:04.142 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:04.143 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:04.143 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:04.147 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@507094d5
+05.11.2021 19:46:04.149 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@1753dfec
+05.11.2021 19:46:04.151 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@64418e69
+05.11.2021 19:46:04.159 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@6444f3bd
+05.11.2021 19:46:04.159 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@2664daf4
+05.11.2021 19:46:04.159 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:04.159 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:04.159 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:04.160 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:04.161 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:04.161 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@7489dae0
+05.11.2021 19:46:04.162 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:04.164 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.164 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.165 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.165 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.166 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.166 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.166 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.167 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:04.168 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:04.170 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:04.170 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@237aa3f4
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - HikariPool-7 - configuration:
+05.11.2021 19:46:04.170 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@28b3a616
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:04.170 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-7"
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:04.171 [main] INFO   c.z.h.HikariDataSource - HikariPool-7 - Starting...
+05.11.2021 19:46:04.171 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:04.173 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@3e698e5d
+05.11.2021 19:46:04.185 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@6d67aa6a
+05.11.2021 19:46:04.185 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@618b882c
+05.11.2021 19:46:04.186 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - Added connection com.mysql.jdbc.JDBC4Connection@3138d596
+05.11.2021 19:46:04.186 [HikariPool-3 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-3 - After adding stats (total=20, active=0, idle=20, waiting=0)
+05.11.2021 19:46:04.190 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-7 - Added connection com.mysql.jdbc.JDBC4Connection@15cea7b0
+05.11.2021 19:46:04.190 [main] INFO   c.z.h.HikariDataSource - HikariPool-7 - Start completed.
+05.11.2021 19:46:04.190 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:04.191 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:04.191 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:04.192 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:04.192 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:04.193 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:04.194 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:04.194 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:04.194 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:04.195 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:04.195 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@1cfceadd
+05.11.2021 19:46:04.195 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@41725734
+05.11.2021 19:46:04.195 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:04.196 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:04.196 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:04.197 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:04.198 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:04.202 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL query
+05.11.2021 19:46:04.202 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?]
+05.11.2021 19:46:04.202 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.205 [HikariPool-6 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:04.206 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@63ec445c]
+05.11.2021 19:46:04.206 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.206 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:04.207 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@63ec445c]: database product name is 'MySQL'
+05.11.2021 19:46:04.207 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [SELECT MUSCLE_NAME FROM MUSCLES WHERE MUSCLE_ID=?] for task [PreparedStatementCallback]
+05.11.2021 19:46:04.207 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05.11.2021 19:46:04.207 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)]
+05.11.2021 19:46:04.207 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.209 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [INSERT MUSCLES(MUSCLE_ID,MUSCLE_NAME) VALUES(?,?)] for task [PreparedStatementCallback]
+05.11.2021 19:46:04.213 [main] DEBUG  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7b7b3edb
+05.11.2021 19:46:04.213 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+05.11.2021 19:46:04.220 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@612667f2
+05.11.2021 19:46:04.225 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@4bfd79d1
+05.11.2021 19:46:04.227 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\AddTrainingCommand.class]
+05.11.2021 19:46:04.228 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\command\Impl\user\UpdateTrainingCommand.class]
+05.11.2021 19:46:04.230 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\ExerciseNameDAOImpl.class]
+05.11.2021 19:46:04.230 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\MuscleDAOImpl.class]
+05.11.2021 19:46:04.231 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\TrainingDAOImpl.class]
+05.11.2021 19:46:04.231 [main] DEBUG  o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\User\IdeaProjects\lecture14\target\classes\by\itacademy\javaenterprise\dao\impl\UserDAOImpl.class]
+05.11.2021 19:46:04.233 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@29246b9b
+05.11.2021 19:46:04.235 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@19870b6b
+05.11.2021 19:46:04.238 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@294f5b4c
+05.11.2021 19:46:04.242 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@490b94d4
+05.11.2021 19:46:04.245 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+05.11.2021 19:46:04.245 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+05.11.2021 19:46:04.245 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+05.11.2021 19:46:04.246 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+05.11.2021 19:46:04.247 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@55e6a65b
+05.11.2021 19:46:04.247 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springConfig'
+05.11.2021 19:46:04.248 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+05.11.2021 19:46:04.250 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'datasource.jdbcUrl' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.251 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.user' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.251 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.password' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.252 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.maxPoolSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.252 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@76e416e2
+05.11.2021 19:46:04.253 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.cachePrepStmts' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.253 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSize' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.253 [main] DEBUG  o.s.c.e.PropertySourcesPropertyResolver - Found key 'dataSource.prepStmtCacheSqlLimit' in PropertySource 'class path resource [database.properties]' with value of type String
+05.11.2021 19:46:04.254 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'addTrainingCommand'
+05.11.2021 19:46:04.256 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'trainingDAOImpl'
+05.11.2021 19:46:04.257 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariDataSource'
+05.11.2021 19:46:04.257 [main] DEBUG  c.z.h.HikariConfig - HikariPool-8 - configuration:
+05.11.2021 19:46:04.257 [main] DEBUG  c.z.h.HikariConfig - allowPoolSuspension.............false
+05.11.2021 19:46:04.257 [main] DEBUG  c.z.h.HikariConfig - autoCommit......................true
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - catalog.........................none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - connectionInitSql...............none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - connectionTestQuery.............none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - connectionTimeout...............30000
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - dataSource......................none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - dataSourceClassName.............none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - dataSourceJNDI..................none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - dataSourceProperties............{password=<masked>, prepStmtCacheSqlLimit=2048, cachePrepStmts=true, prepStmtCacheSize=250}
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - driverClassName.................none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - exceptionOverrideClassName......none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - healthCheckProperties...........{}
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - healthCheckRegistry.............none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - idleTimeout.....................600000
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - initializationFailTimeout.......1
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - isolateInternalQueries..........false
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - leakDetectionThreshold..........0
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - maxLifetime.....................1800000
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - maximumPoolSize.................20
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - metricRegistry..................none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - metricsTrackerFactory...........none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - minimumIdle.....................20
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - password........................<masked>
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - poolName........................"HikariPool-8"
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - readOnly........................false
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - registerMbeans..................false
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - scheduledExecutor...............none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - schema..........................none
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - threadFactory...................internal
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - transactionIsolation............default
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - username........................"xxx"
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.HikariConfig - validationTimeout...............5000
+05.11.2021 19:46:04.258 [main] INFO   c.z.h.HikariDataSource - HikariPool-8 - Starting...
+05.11.2021 19:46:04.258 [main] DEBUG  c.z.h.u.DriverDataSource - Loaded driver with class name com.mysql.jdbc.Driver for jdbcUrl=jdbc:mysql://localhost:3306/demodb?useSSL=false
+05.11.2021 19:46:04.261 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@4d45297e
+05.11.2021 19:46:04.262 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@45543725
+05.11.2021 19:46:04.267 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@3915aa53
+05.11.2021 19:46:04.272 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@720fa0f5
+05.11.2021 19:46:04.273 [main] DEBUG  c.z.h.p.HikariPool - HikariPool-8 - Added connection com.mysql.jdbc.JDBC4Connection@515ebef3
+05.11.2021 19:46:04.273 [main] INFO   c.z.h.HikariDataSource - HikariPool-8 - Start completed.
+05.11.2021 19:46:04.274 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'trainingDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:04.274 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'UpdateTraining'
+05.11.2021 19:46:04.274 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@65f55f70
+05.11.2021 19:46:04.274 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exerciseNameDAOImpl'
+05.11.2021 19:46:04.276 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcNamedTemplate'
+05.11.2021 19:46:04.276 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jdbcTemplate'
+05.11.2021 19:46:04.278 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mapSqlParameterSource'
+05.11.2021 19:46:04.279 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'jdbcNamedTemplate'
+05.11.2021 19:46:04.279 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'exerciseNameDAOImpl' via constructor to bean named 'mapSqlParameterSource'
+05.11.2021 19:46:04.280 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'muscleDAOImpl'
+05.11.2021 19:46:04.282 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'muscleDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:04.282 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDAOImpl'
+05.11.2021 19:46:04.283 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@7ee20786
+05.11.2021 19:46:04.284 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'hikariDataSource'
+05.11.2021 19:46:04.284 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'userDAOImpl' via constructor to bean named 'jdbcTemplate'
+05.11.2021 19:46:04.285 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qualifierExample'
+05.11.2021 19:46:04.286 [main] DEBUG  o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'qualifierExample' via factory method to bean named 'UpdateTraining'
+05.11.2021 19:46:04.287 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - Added connection com.mysql.jdbc.JDBC4Connection@3acb9be3
+05.11.2021 19:46:04.288 [HikariPool-4 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-4 - After adding stats (total=20, active=0, idle=20, waiting=0)
+05.11.2021 19:46:04.288 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@2cb5d4de
+05.11.2021 19:46:04.289 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL update
+05.11.2021 19:46:04.289 [main] DEBUG  o.s.j.c.JdbcTemplate - Executing prepared SQL statement [UPDATE MUSCLES SET MUSCLE_NAME=? WHERE MUSCLE_ID=?]
+05.11.2021 19:46:04.289 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.289 [main] DEBUG  o.s.j.c.StatementCreatorUtils - JDBC getParameterType call failed - using fallback method instead: java.sql.SQLException: Parameter metadata not available for the given statement
+05.11.2021 19:46:04.293 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@ae372b9]
+05.11.2021 19:46:04.293 [main] DEBUG  o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+05.11.2021 19:46:04.293 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - SQL error codes for 'MySQL' found
+05.11.2021 19:46:04.293 [main] DEBUG  o.s.j.s.SQLErrorCodesFactory - Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@ae372b9]: database product name is 'MySQL'
+05.11.2021 19:46:04.293 [main] DEBUG  o.s.j.s.SQLErrorCodeSQLExceptionTranslator - Translating SQLException with SQL state '42S02', error code '1146', message [Table 'demodb.MUSCLES' doesn't exist]; SQL was [UPDATE MUSCLES SET MUSCLE_NAME=? WHERE MUSCLE_ID=?] for task [PreparedStatementCallback]
+05.11.2021 19:46:04.299 [HikariPool-7 housekeeper] DEBUG  c.z.h.p.HikariPool - HikariPool-7 - Pool stats (total=1, active=0, idle=1, waiting=0)
+05.11.2021 19:46:04.304 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@19e5513f
+05.11.2021 19:46:04.311 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@2fa10c1c
+05.11.2021 19:46:04.323 [HikariPool-5 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-5 - Added connection com.mysql.jdbc.JDBC4Connection@748b9a73
+05.11.2021 19:46:04.323 [HikariPool-7 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-7 - Added connection com.mysql.jdbc.JDBC4Connection@75749743
+05.11.2021 19:46:04.327 [HikariPool-6 connection adder] DEBUG  c.z.h.p.HikariPool - HikariPool-6 - Added connection com.mysql.jdbc.JDBC4Connection@2ea83f2c
